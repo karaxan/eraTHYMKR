@@ -1,10 +1,47 @@
-﻿#DIM CONST RC_CATEGORY_COUNT = 10
-#DIM CONST RC_SUB_CATEGORY_COUNT = 2
+﻿#DIM CONST RC_CATEGORY_COUNT = 21
+#DIM CONST RC_SUB_CATEGORY_COUNT = 14
 #DIM CONST RC_PAGE_SIZE = 10
-#DIMS CONST RC_CATEGORY_NAMES = "회화", "애무", "수치", "도구", "V계", "A계", "약품", "SM", "촉수", "기타"
-#DIMS CONST RC_SUB_CATEGORY_NAMES = "기본", "확장"
+#DIMS CONST RC_CATEGORY_NAMES = "애무", "봉사", "약품", "C조교", "B조교", "V조교", "A조교", "요도", "역강간", "도구", "목욕", "노출", "조수", "가학성애", "피학성애", "동성애", "수간", "촉수", "스너프", "신체개조", "기타"
+#DIMS CONST RC_SUB_CATEGORY_NAMES = "일반", "회화", "애무", "노출", "도구", "가학성애", "약품", "C조교", "B조교", "V조교", "A조교", "개", "돼지", "말"
 #DIM RC_CONTAIN_SUB_CATEGORYS, RC_CATEGORY_COUNT, RC_SUB_CATEGORY_COUNT
 #DIM RC_CATEGORY_DEPENDENCY, RC_SUB_CATEGORY_COUNT, RC_CATEGORY_COUNT
 #DIM RC_COMMAND_CATEGORY, 1000
-#DIM RC_COMMAND_LIST, RC_CATEGORY_COUNT, 1000
-#DIM RC_COMMAND_LIST_COUNT, RC_CATEGORY_COUNT
+#DIM RC_COMMAND_LIST, 1000, 1000
+#DIM RC_COMMAND_LIST_COUNT, 1000
+
+#DIM CONST RC_대분류_애무 = 0
+#DIM CONST RC_대분류_봉사 = 1
+#DIM CONST RC_대분류_약품 = 2
+#DIM CONST RC_대분류_C조교 = 3
+#DIM CONST RC_대분류_B조교 = 4
+#DIM CONST RC_대분류_V조교 = 5
+#DIM CONST RC_대분류_A조교 = 6
+#DIM CONST RC_대분류_요도 = 7
+#DIM CONST RC_대분류_역강간 = 8
+#DIM CONST RC_대분류_도구 = 9
+#DIM CONST RC_대분류_목욕 = 10
+#DIM CONST RC_대분류_노출 = 11
+#DIM CONST RC_대분류_조수 = 12
+#DIM CONST RC_대분류_가학성애 = 13
+#DIM CONST RC_대분류_피학성애 = 14
+#DIM CONST RC_대분류_스너프 = 15
+#DIM CONST RC_대분류_동성애 = 16
+#DIM CONST RC_대분류_수간 = 17
+#DIM CONST RC_대분류_촉수 = 18
+#DIM CONST RC_대분류_신체개조 = 19
+#DIM CONST RC_대분류_기타 = 20
+
+#DIM CONST RC_소분류_일반 = 0
+#DIM CONST RC_소분류_회화 = 1
+#DIM CONST RC_소분류_애무 = 2
+#DIM CONST RC_소분류_노출 = 3
+#DIM CONST RC_소분류_도구 = 4
+#DIM CONST RC_소분류_가학성애 = 5
+#DIM CONST RC_소분류_약품 = 6
+#DIM CONST RC_소분류_C조교 = 7
+#DIM CONST RC_소분류_B조교 = 8
+#DIM CONST RC_소분류_V조교 = 9
+#DIM CONST RC_소분류_A조교 = 10
+#DIM CONST RC_소분류_개 = 11
+#DIM CONST RC_소분류_돼지 = 12
+#DIM CONST RC_소분류_말 = 13
