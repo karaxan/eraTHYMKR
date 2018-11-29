@@ -1,10 +1,10 @@
-@BOOK_0
+﻿@BOOK_0
 RESULTS = "서재 설명서"
-RETURN 0
+RETURN 1
 
 @BOOK_0_READ
 PRINTL 서재 사용법
 PRINTL 먼저 임의의 책번호 X를 결정합니다
 PRINTL 그 다음 BOOKS 폴더에 X_[책제목].ERB 파일을 만들고
-PRINTL BOOK_X와 BOOK_X_READ 함수를 만듭니다 얘네는 필수 함수입니다
+PRINTL BOOK_X와 BOOK_X_READ 함수를 만듭니다 이 두 함수는 꼭 구현해야할 필수 함수입니다
 PRINTL 그 다음 BOOK_X_EFFECT_[효과이름] 함수를 만든다음 적절히 LIBRARY_BOOK_EFFECT(X, [효과이름])을 쓰시면 됩니다

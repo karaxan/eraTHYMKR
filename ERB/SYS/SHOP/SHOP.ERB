@@ -349,6 +349,7 @@ ELSE
     ;주인 또는 그 자리에 있으며 조수 가능한 노예 중 누구 한 명이 [조합지식]이나 [금단의 지식]을 가지고 있고, 자금이 있을 경우
     SIF LOCAL:3 && MONEY > 0
         PRINTLC [122] - 약방
+    PRINTLC [123] - 서재
     ;조교 대상이 존재하고, CONFIG의 「도시락 · 라이브」가 유효할 경우
     IF TARGET >= 0 && FLAG:12 & 16
         ;조교 대상의 순종 Lv이 2 이상일 경우
@@ -565,6 +566,8 @@ ELSE
         CALL BUY_SKILL
     ELSEIF RESULT == 122 && GET_LIST(3) && MONEY > 0
         CALL BUY_DRUG
+    ELSEIF RESULT == 123
+        CALL LIBRARY_ENTER
     ELSEIF RESULT == 130 && TARGET >= 0 && ABL:10 >= 2 && FLAG:12 & 16
         CALL LUNCH_JUDGE
         RETURN 1
