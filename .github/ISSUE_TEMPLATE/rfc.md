@@ -1,7 +1,7 @@
 ---
-name: 제안
+name: RFC
 about: 구상이나 시스템에 대한 제안을 합니다
-title: "[제안] "
+title: "[RFC]  "
 labels: 제안
 assignees: ''
 
